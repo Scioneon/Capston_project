@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    height: 100%;
+}
+
+
+.gradientContainer {
+    background: linear-gradient(90deg, rgba(92, 101, 198, 1) 40%, rgba(0, 212, 255, 1) 100%, rgba(9, 70, 121, 1) 100%);
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+nav {
+    position: fixed;
+    width: 70%;
+    height: 27px;
+    display: flex;
+    justify-content: space-between;
+    background: rebeccapurple;
+    flex-direction: row;
+}
+
+.navButtons {
+    margin-top: 5px;
+}
+
+
+.mainContainer {
+    width: 80%;
+    height: 60%;
+    background: green;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.imageContainer {
+    background: red;
+    width: 60%;
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+img {
+    width: 40%;
+}
+
+h6 {
+    width: 30%;
+}
