@@ -18,9 +18,28 @@ nav {
     height: 27px;
     display: flex;
     justify-content: space-between;
-    background: rebeccapurple;
     flex-direction: row;
 }
+
+.logo {
+    font-weight: bold;
+    font-size: large;
+    color: white;
+    margin-top: 5px;
+}
+
+button {
+    font-weight: bold;
+    font-size: x-small;
+    color: white;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
 
 .navButtons {
     margin-top: 5px;
@@ -47,8 +66,17 @@ nav {
     justify-content: space-between;
 }
 
+.facePortrait {
+    width: 60%;
+}
+
+.infoPortrait {
+    width: 30%;
+}
+
+
 img {
-    width: 40%;
+    width: 95%;
 }
 
 h6 {
